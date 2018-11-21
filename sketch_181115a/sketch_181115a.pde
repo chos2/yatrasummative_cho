@@ -23,7 +23,9 @@ void setup()
   alive = loadImage("alive.jpg");
 file = new SoundFile(this, "watersound.mp3");
 crush = new SoundFile(this, "crushing.mp3");
-file.play();
+file.loop();
+
+
 
 
 }
